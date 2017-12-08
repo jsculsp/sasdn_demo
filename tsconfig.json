@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": false,
+    "rootDir": "src",
+    "outDir": "build",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/grpc-tsd/src/grpc.d.ts"
+  ],
+  "exclude": [
+    "src/proto/**/*",
+    "node_modules",
+    "src/**/__mocks__/*.*",
+    "src/**/test.ts"
+  ]
+}
