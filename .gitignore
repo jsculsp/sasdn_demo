@@ -7,8 +7,6 @@ npm-debug.log*
 
 build
 
-bash/sample
-
 # Dependency directory
 node_modules
 
